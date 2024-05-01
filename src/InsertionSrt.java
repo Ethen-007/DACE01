@@ -12,7 +12,7 @@ public class InsertionSrt {
             int current = arr[i];
             int j = i-1;
             while (j>=0 && current < arr[j]){
-                arr[j+1]=arr[j];
+                arr[j+1]=arr[j];// j index is to keep track of the unsorted part . In insertion sort there are two parts unsorted and sorted part
                 j--;
             }
             //placement
