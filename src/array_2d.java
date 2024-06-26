@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class array_2d {
     public static void main(String[] args){
+        @SuppressWarnings("resource")
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter the size number of rows");
         int rows=sc.nextInt();
@@ -24,4 +25,5 @@ public class array_2d {
             System.out.println();
         }
     }
+    
 }
