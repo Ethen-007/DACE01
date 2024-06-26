@@ -1,7 +1,7 @@
 import java.util.Stack;
 import java.util.HashMap;
 
-public class Solution {
+class Backtracking {
     public boolean isValid(String s) {
         Stack<Character> stack = new Stack<>();
         HashMap<Character, Character> map = new HashMap<>();
@@ -24,7 +24,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        Solution solution = new Solution();
+        Backtracking solution = new Backtracking();
         System.out.println(solution.isValid("()"));       // true
         System.out.println(solution.isValid("()[]{}"));   // true
         System.out.println(solution.isValid("(]"));       // false
