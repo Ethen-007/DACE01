@@ -1,15 +1,17 @@
-import java.util.*;
+import java.util.Scanner;
+
 public class Conditions {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int a =sc.nextInt();
-        int b =sc.nextInt();
-        if(a>b){
-            System.out.println("a is grt than b");
-        }else if(a<b){
-            System.out.println("a is less than b");
-        }else{
-            System.out.println("they are equal");
+        try (Scanner sc = new Scanner(System.in)) {
+            int a =sc.nextInt();
+            int b =sc.nextInt();
+            if(a>b){
+                System.out.println("a is grt than b");
+            }else if(a<b){
+                System.out.println("a is less than b");
+            }else{
+                System.out.println("they are equal");
+            }
         }
     }
 }
