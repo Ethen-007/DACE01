@@ -8,10 +8,11 @@ public class Factorial {
         return result;
     }
     public static void main(String[] args){
-        Scanner sc=new Scanner(System.in);
-        System.out.println("Enter the number : ");
-        int n= sc.nextInt();
-        int result=factorial(n);
-        System.out.println("the factorial of " + n + " is " + result);
+        try (Scanner sc = new Scanner(System.in)) {
+            System.out.println("Enter the number : ");
+            int n= sc.nextInt();
+            int result=factorial(n);
+            System.out.println("the factorial of " + n + " is " + result);
+        }
     }
 }
