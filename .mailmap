@@ -1,0 +1,15 @@
+# Canonical author names and emails.
+#
+# Use this to provide a canonical name and email for an author when their
+# name is not always written the same way and/or they have commits authored
+# under different email addresses.
+#
+# Reference: https://git-scm.com/docs/gitmailmap
+
+# Keep these entries sorted alphabetically.
+# In Dace: `editor: sort lines case insensitive`
+
+Ethen Biju <ethenbiju@gmail.com>
+Ethen Biju <ethenbiju@gmail.com> 
+
+
