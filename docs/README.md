@@ -1,4 +1,4 @@
-# Zed Docs
+# Dace Docs
 
 Welcome to Dace's documentation.
 
